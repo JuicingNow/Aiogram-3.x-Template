@@ -18,8 +18,10 @@ This is the best `aiogram 3.x` structure for telegram bots.
     ```bash
    pip install -r requirements.txt  
   
-3. **Setup .env:**  
-    Open file `.env` and paste your telegram bot token there.  
+3. **Setup a `.env` file:**
+   Create a `.env` file in the `app` directory.  
+   This file will store your Telegram bot token. Open the `.env` file and add the following line:<br>
+   `TG_TOKEN="your-telegram-bot-token"`
 
 
 4. **Setup handlers:**  
